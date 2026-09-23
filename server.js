@@ -11,7 +11,7 @@ const {
   actionMortgage, actionUnmortgage,
   actionPayJailFine, actionUseGetOutCard,
   SQUARES, COLOR_GROUPS
-} = require('./src/gameEngine');
+} = require('./Src/gameEngine');
 
 const app = express();
 const server = http.createServer(app);
