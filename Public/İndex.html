@@ -387,3 +387,4 @@ function useGetOutCard(){ socket.emit('useGetOutCard', {}, (r) => { if(r?.error)
 
 function buyHouse(sid)  { socket.emit('buyHouse', { squareId: sid }, (r) => { if(r?.error) showToast('❌ '+r.error); else closePropModalDirect(); }); }
 function sellHouse(sid) { socket.emit('sellHouse', { squareId: sid }, (r) => { if(r?.error) showToast('❌ '+r.error); else closeP
+                                                                              
